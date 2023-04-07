@@ -1,0 +1,129 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": 
+			
+			{
+				"navigationBarTitleText": "图书管理系统",
+				"enablePullDownRefresh": true
+			}
+			
+		}
+	    ,{
+            "path" : "pages/home/home",
+            "style" :
+			
+			{
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/country/country",
+            "style" :
+            {
+                "navigationBarTitleText": "根据国家查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/book_list/book_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查询结果",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/book_detail/book_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图书详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/star_book/star_book",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏图书",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan_book/loan_book",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "借阅图书",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/loan_book_list/loan_book_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "借书单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/return_book/return_book",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "归还图书",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/history/history",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "借阅历史",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "图书管理系统",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#fff"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/index.png",
+				"selectedIconPath": "static/icon/index (1).png"
+			},
+			{
+				"pagePath": "pages/country/country",
+				"text": "国家",
+				"iconPath": "static/icon/international.png",
+				"selectedIconPath": "static/icon/international (1).png"
+			},
+			{
+				"pagePath": "pages/home/home",
+				"text": "我的",
+				"iconPath": "static/icon/user.png",
+				"selectedIconPath": "static/icon/user (1).png"
+			}
+		],
+		"color": "#ccc",
+		"selectedColor": "#f70000",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white"
+	}
+}
