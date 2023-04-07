@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "借阅图书",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "show-book-list": "../../components/showBookList/showBookList"
-  }
-}
